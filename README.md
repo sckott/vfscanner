@@ -15,6 +15,7 @@ This project uses [uv](https://docs.astral.sh/uv/) for dependency management. Vi
 
 2. **Clone or navigate to this project directory**:
    ```bash
+   mkdir vfscanner
    cd vfscanner
    ```
 
@@ -36,16 +37,20 @@ This project uses [uv](https://docs.astral.sh/uv/) for dependency management. Vi
    
    Download and run the installer from [uv's installation page](https://docs.astral.sh/uv/getting-started/installation/), or if you have Python installed:
    ```bash
+   # On the command line
    pip install uv
    ```
 
 2. **Navigate to this project directory**:
    ```bash
+   # On the command line
+   mkdir vfscanner
    cd vfscanner
    ```
 
 3. **Install dependencies**:
    ```bash
+   # On the command line
    uv sync --python 3.9
    ```
 
@@ -78,6 +83,8 @@ The original virtual-scanner documentation mentions Python 3.6, but modern versi
 - To explicitly specify a different version: `uv sync --python 3.9`
 
 ## Usage
+
+Run this on the command line:
 
 ```bash
 uv run virtualscanner
