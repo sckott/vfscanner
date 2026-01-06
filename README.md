@@ -15,7 +15,7 @@ This project uses [uv](https://docs.astral.sh/uv/) for dependency management. Vi
 
 2. **Clone or navigate to this project directory**:
    ```bash
-   mkdir vfscanner
+   git clone https://github.com/sckott/vfscanner.git
    cd vfscanner
    ```
 
@@ -44,7 +44,7 @@ This project uses [uv](https://docs.astral.sh/uv/) for dependency management. Vi
 2. **Navigate to this project directory**:
    ```bash
    # On the command line
-   mkdir vfscanner
+   git clone https://github.com/sckott/vfscanner.git
    cd vfscanner
    ```
 
