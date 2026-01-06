@@ -1,0 +1,11 @@
+[project]
+name = "vfscanner"
+version = "0.1.0"
+description = "Example uv project using virtual-scanner"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "virtual-scanner>=1.0.28.3",
+    "tensorflow==2.13.1",
+    "tensorflow-macos==2.13.1; platform_system == 'Darwin' and platform_machine == 'arm64'",
+]
