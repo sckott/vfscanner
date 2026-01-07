@@ -36,6 +36,7 @@ This project uses [uv](https://docs.astral.sh/uv/) for dependency management. Vi
 1. **Install uv** if you haven't already:
    
    Download and run the installer from [uv's installation page](https://docs.astral.sh/uv/getting-started/installation/), or if you have Python installed:
+   
    ```bash
    # On the command line
    pip install uv
@@ -51,7 +52,8 @@ This project uses [uv](https://docs.astral.sh/uv/) for dependency management. Vi
 3. **Install dependencies**:
    ```bash
    # On the command line
-   uv sync --python 3.9
+   uv sync
+   uv pip install tensorflow
    ```
 
    This will:
@@ -89,6 +91,8 @@ Run this on the command line:
 ```bash
 uv run virtualscanner
 ```
+
+If the above command works you should see a url like `http://127.0.0.1:5000` - navigate to that url in your browser and you should see the application.
 
 ## Project Structure
 
